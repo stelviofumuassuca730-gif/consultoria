@@ -1,0 +1,17 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+: :root { 
+ --dark-blue: #091746;
+ --light-marron:#AD7761;
+ --font-highlight:DM serif display;
+}
+
+.body{
+    background-color:var#091746;
+}
