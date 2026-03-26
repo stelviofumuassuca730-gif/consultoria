@@ -8,9 +8,82 @@
     --dark-blue: #091746;
     --light-marron: #AD7761;
     --font-highlight: 'DM Serif Display', serif;
+    --font-main:'Nunito', sans-serif;
+}
+
+ 
+html,body {
+    font-size: 16px;
+
 }
 
 body {
+    background-color:#fff;
+    font-family: var(--font-main);
+    color: #fff;
+    
+}
+
+
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.container{
+     width: 100vh;
+    padding: 0 15vh;
+    margin: auto;
+
+}
+.container-hero {
+    width: 100%;
+    height: 80vh;
+
     background-color: var(--dark-blue);
-    font-family: 'Nunito', sans-serif;
+    background-image:url(../images/hero.png.jpeg);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+aside.contacts-top-container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+   gap: 25px;
+
+   padding: 1rem;
+   border-bottom: 1px dotted #fff;
+   margin-bottom: 1.8 rem;
+}
+
+nav > ul.header-links{
+   
+    list-style: none;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+li.link-item {
+    display: inline-block;
+
+}
+.button {
+    background: #0d1b2a;
+    color: white;
+    padding: 5px 5px;
+    border-radius: 15px;
+    transition: 0.3s;
+    justify-content: space-between;
+    
+}
+
+.button:hover {
+    background: #1b263b;
+    transform: scale(1.05);
 }

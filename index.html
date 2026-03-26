@@ -9,42 +9,77 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Nunito:wght@200;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Nunito:wght@200;400;700&display=swap"
+        rel="stylesheet">
 
     <link rel="shortcut icon" href="images/logo_rounded.png" type="image/x-icon">
     <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
+    <div class="container-hero container">
 
-    <aside>
-        <div class="contacts-top">
-            <span>info@act-consultoria.ao</span>
-            <span>+244 923 401 263</span>
-        </div>
+        <!-- CONTACTOS -->
+        <aside class="contacts-top-container">
+            <div class="contacts-top">
+                <span>
+                    <a href="mailto:info@act-consultoria.ao">info@act-consultoria.ao</a>
+                </span>
+                <span>
+                    <a href="tel:+244923401263">+244 923 401 263</a>
+                </span>
+            </div>
 
-        <div class="social-media">
-            <span>Instagram</span>
-            <span>LinkedIn</span>
-        </div>
-    </aside>
+            <!-- REDES SOCIAIS -->
+            <div class="social-media">
+                <span>
+                    <a href="https://instagram.com" target="_blank">Instagram</a>
+                </span>
+                <span>
+                    <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+                </span>
+            </div>
+        </aside>
 
-    <header>
-        <div class="logo-company">
-            <img src="images/logo_wi_label.png" alt="Logo de ACT CONSULTORIA">
-        </div>
+        <!-- HEADER -->
+        <header>
+            <div class="logo-company">
+                <img src="images/logo_wi_label.png" alt="Logo de ACT CONSULTORIA">
+            </div>
 
-        <nav>
-            <ul class="header-links">
-                <li class="link-item"><a href="#">Home</a></li>
-                <li class="link-item"><a href="#">Sobre Nós</a></li>
-                <li class="link-item"><a href="#">Academia do Ser</a></li>
-                <li class="link-item"><a href="#">Serviços</a></li>
-                <li class="link-item"><a href="#">Contactos</a></li>
-                <li class="link-item"><a href="#">Blog</a></li>
-            </ul>
-        </nav>
-    </header>
+            <nav>
+                <ul class="header-links">
+                    <li class="link-item"><a href="#">Home</a></li>
+                    <li class="link-item"><a href="#">Sobre Nós</a></li>
+                    <li class="link-item"><a href="#">Academia do Ser</a></li>
+                    <li class="link-item"><a href="#">Serviços</a></li>
+                    <li class="link-item"><a href="#contactos">Contactos</a></li>
+                    <li class="link-item"><a href="#">Blog</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- CTA -->
+        <article class="cta-top">
+            <h2 class="cta-title">Conte connosco para servir melhor os seus clientes</h2>
+
+            <h2 class="cta-subtitle">
+                Serviços de excelência em diversos setores de atividade
+            </h2>
+
+            <a href="#contactos" class="button cta-button">
+                Saiba mais
+            </a>
+        </article>
+
+    </div>
+
+    <!-- SEÇÃO CONTACTOS -->
+    <section id="contactos">
+        <h2>Contacte-nos</h2>
+        <p>Email: info@act-consultoria.ao</p>
+        <p>Telefone: +244 923 401 263</p>
+    </section>
 
 </body>
 </html>
