@@ -41,10 +41,11 @@ a {
     height: 80vh;
 
     background-color: var(--dark-blue);
-    background-image:url(../images/hero.png.jpeg);
+    background:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/hero.png.jpeg);
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
+
 }
 aside.contacts-top-container{
    display: flex;
@@ -62,17 +63,27 @@ nav > ul.header-links{
    
     list-style: none;
 }
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 10rem;
     
 }
 
 li.link-item {
     display: inline-block;
+    text-transform:uppercase;
+
+   margin-right: 1.25rem;
+   &:hover{
+    color: var(--dark-blue);
+   }
+
 
 }
+
+
 .button {
     background: #0d1b2a;
     color: white;
